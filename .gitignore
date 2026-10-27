@@ -1,0 +1,26 @@
+# data and generated outputs (regenerate with scripts/)
+data/
+output/
+*.parquet
+*.csv
+!tests/**/*.csv
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+
+# editors / OS
+.vscode/
+.idea/
+.obsidian/
+.DS_Store
+Thumbs.db
+
+# never commit credentials
+.env
+*.key
